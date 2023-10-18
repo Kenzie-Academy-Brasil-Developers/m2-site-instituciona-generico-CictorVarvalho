@@ -9,79 +9,121 @@
 <body>
     <header class="head">
         <img src="./src/assets/img/logo.svg" alt="logo">
-       <a href="#about" class="scroll-link">
         <button class="header_button">Entrar para próxima turma</button>
-       </a> 
+        </a> 
     </header>
+
+    <dialog id="modalController">
+        <div class="modal_container">
+            <h3 class="modal_title">Cadastro</h3>
+            <button id="closeModal">X</button>
+            <p class="modal_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, beatae quo eligendi minus tempora reiciendis assumenda nostrum quis blanditiis officia. Dolores ullam est tenetur aliquam deserunt nobis, doloremque hic ipsa!</p>
+            <input class="modal_input" type="text" placeholder="Digitar E-mail">
+            <button class="modal_button">Entrar na lista para a próxima turma</button> 
+        </div>
+    </dialog>
+
     <main>
         <div class="banner">
-            <h1 class="banner_title">Desenvolvendo suas próximas habilidades</h1>
+            <h1 class="banner_title">Desenvolvendo <span class="span">suas</span> próximas habilidades</h1>
             <p class="banner_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="banner_button">Sobre nós</button>
         </div>
 
-        <div class="about" id="about">
+        <section class="about">
             <h2 class="about_title">Quem somos nós?</h2>
             <p class="about_p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi commodi recusandae, ipsa magnam excepturi assumenda eum laudantium tenetur, autem optio rerum debitis aliquid nulla sit reiciendis. Error repellendus qui quis!</p>
-        </div>
+        </section>
 
         <section class="faq">
-            <div class="faq_frame">
-            <h2 class="faq_title">Dúvidas frequentes</h2>
-            <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis ab perspiciatis odio tempora id impedit sunt, dicta unde explicabo totam quaerat omnis hic temporibus vel iste ipsam officiis officia.</p>
-            <button class="faq_button">Entrar para a próxima turma</button>
-            </div>
+            <aside class="faq_frame">
+                <h2 class="faq_title">Dúvidas frequentes</h2>
+                <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facilis ab perspiciatis odio tempora id impedit sunt, dicta unde explicabo totam quaerat omnis hic temporibus vel iste ipsam officiis officia.</p>
+                 <button class="faq_button">Entrar para a próxima turma</button>
+            </aside>
         
-            <div class="faq_qt faq_qt_div">
-            <h3 class="faq_title_qt">Quanto custa o curso?</h3>
-            <p class="faq_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod praesentium assumenda nisi vero necessitatibus magni. Assumenda vel perferendis ut aliquid quae incidunt et maxime? Laudantium labore rerum natus numquam sapiente?</p>
+            <div class="faq_qt">
+                <ul class="faq_qt_ul">
+                    <li>
+                        <h3 class="faq_title_qt">Quanto custa o curso?</h3>
+                        <p class="faq_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod praesentium assumenda nisi vero necessitatibus magni. Assumenda vel perferendis ut aliquid quae incidunt et maxime? Laudantium labore rerum natus numquam sapiente?</p>
+                    </li>
 
-            <h3 class="faq_title_qt">Quais matérias vou pegar?</h3>
-            <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam labore culpa minima dolore necessitatibus tenetur, similique magnam explicabo quibusdam, facilis quam porro consequatur. Repellendus consequuntur enim deleniti inventore totam ut!</p>
+                    <li>
+                        <h3 class="faq_title_qt">Quais matérias vou pegar?</h3>
+                        <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam labore culpa minima dolore necessitatibus tenetur, similique magnam explicabo quibusdam, facilis quam porro consequatur. Repellendus consequuntur enim deleniti inventore totam ut!</p>
+                    </li>
 
-            <h3 class="faq_title_qt">Tenho direito a cancelamento?</h3>
-            <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quos ad omnis reiciendis a? Cupiditate sed libero fuga nisi eum est excepturi voluptatem accusantium inventore, doloremque rerum necessitatibus. Quod, laudantium.</p>
+                    <li>
+                        <h3 class="faq_title_qt">Tenho direito a cancelamento?</h3>
+                        <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quos ad omnis reiciendis a? Cupiditate sed libero fuga nisi eum est excepturi voluptatem accusantium inventore, doloremque rerum necessitatibus. Quod, laudantium.</p>
+                    </li>
 
-            <h3 class="faq_title_qt">O acesso do curso é vitalício?</h3>
-            <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione praesentium magni, magnam sapiente repellat ducimus vitae aspernatur laborum cupiditate molestias laboriosam adipisci modi eveniet distinctio corrupti nesciunt ullam accusamus saepe.</p>
+                    <li>
+                        <h3 class="faq_title_qt">O acesso do curso é vitalício?</h3>
+                        <p class="faq_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione praesentium magni, magnam sapiente repellat ducimus vitae aspernatur laborum cupiditate molestias laboriosam adipisci modi eveniet distinctio corrupti nesciunt ullam accusamus saepe.</p>
+                    </li>
+                </ul>
             </div>
             
         </section>
 
 
         <section class="comments">
-            <div class="comments_frame comments_div">
-            <h3 class="comments_name">Júlia Lima</h3>
-            <p class="comments_date">Aluna na turma 2019</p>
-            <p class="comments_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, repellendus, quod sit alias magnam nemo dicta illo beatae quam harum culpa, voluptas pariatur deleniti facilis perspiciatis fugiat officiis cumque repudiandae!</p>
+            <div class="comments_frame">
+                <div class="comments_div">
+                    <div>
+                        <h3 class="comments_name">Júlia Lima</h3>
+                         <p class="comments_date">Aluna na turma 2019</p>
+                    </div>
+                         <p class="comments_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, repellendus, quod sit alias magnam nemo dicta illo beatae quam harum culpa, voluptas pariatur deleniti facilis perspiciatis fugiat officiis cumque repudiandae!</p>
+                </div>
 
-            <h3 class="comments_name">Carlos Ino</h3>
-            <p class="comments_date">Aluno turma 2020</p>
-            <p class="comments_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste qui reprehenderit adipisci officiis, alias enim incidunt laborum. Perferendis dolore esse nihil recusandae itaque doloremque. Facilis ex totam in sequi?</p>
+                <div class="comments_div">
+                     <div>
+                         <h3 class="comments_name">Carlos Ino</h3>
+                         <p class="comments_date">Aluno turma 2020</p>
+                     </div>
+                        <p class="comments_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste qui reprehenderit adipisci officiis, alias enim incidunt laborum. Perferendis dolore esse nihil recusandae itaque doloremque. Facilis ex totam in sequi?</p>
+                </div>
 
-            <h3 class="comments_name">Camila Dias</h3>
-            <p class="comments_date">Aluna na turma 2019</p>
-            <p class="comments_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum obcaecati ut sint officiis suscipit dignissimos iure vero incidunt, iste culpa rem, atque nulla repellendus quos facere consectetur, cupiditate nostrum odio!</p>
+                <div class="comments_div">
+                    <div>
+                        <h3 class="comments_name">Camila Dias</h3>
+                        <p class="comments_date">Aluna na turma 2019</p>
+                        </div>
+                        
+                         <p class="comments_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum obcaecati ut sint officiis suscipit dignissimos iure vero incidunt, iste culpa rem, atque nulla repellendus quos facere consectetur, cupiditate nostrum odio!</p>
+                </div>    
 
-            <h3 class="comments_name">João Vaz</h3>
-            <p class="comments_date">Aluno na turma 2019</p>
-            <p class="comments_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos numquam cum, repellat laudantium eveniet sunt libero expedita natus minima dolores exercitationem officia porro, sapiente totam rerum ipsum fugiat, velit unde?</p>
+                <div class="comments_div">
+                     <div>
+                        <h3 class="comments_name">João Vaz</h3>
+                         <p class="comments_date">Aluno na turma 2019</p>
+                         </div>
+                        
+                         <p class="comments_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos numquam cum, repellat laudantium eveniet sunt libero expedita natus minima dolores exercitationem officia porro, sapiente totam rerum ipsum fugiat, velit unde?</p>
+                </div>
 
-            <h3 class="comments_name">Gio Oliveira</h3>
-            <p class="comments_date">Aluna na turma 2019</p>
-            <p class="comments_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laboriosam tempore quam sit consectetur rerum corrupti natus consequuntur dolorum at quaerat illo fuga ipsam inventore molestiae, velit doloribus molestias. Non.</p>
-        </div>
+                <div class="comments_div">
+                     <div>
+                        <h3 class="comments_name">Gio Oliveira</h3>
+                            <p class="comments_date">Aluna na turma 2019</p>
+                         </div>
+                         
+                        <p class="comments_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam laboriosam tempore quam sit consectetur rerum corrupti natus consequuntur dolorum at quaerat illo fuga ipsam inventore molestiae, velit doloribus molestias. Non.</p>
+                </div>
 
-        <div class="comments_qt">
-            <h2 class="comments_title">O que nossos alunos comentam?</h2>
-            <p class="comments_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur architecto adipisci tenetur praesentium qui natus, dignissimos, earum doloribus quisquam voluptatibus illo nobis magnam quidem nesciunt sed debitis a consequatur quis!</p>
-        </div>
+            </div>
+            <aside class="comments_qt">
+                <h2 class="comments_title">O que nossos alunos comentam?</h2>
+                <p class="comments_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur architecto adipisci tenetur praesentium qui natus, dignissimos, earum doloribus quisquam voluptatibus illo nobis magnam quidem nesciunt sed debitis a consequatur quis!</p>
+           </aside>
         </section>
-        
     </main>
-
     <footer>
         <img src="./src/assets/img/logo.svg" alt="logo">
     </footer>
+    <script src="./src/scripts/index.js"></script>
 </body>
 </html>
