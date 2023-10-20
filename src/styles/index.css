@@ -3,10 +3,8 @@
 
 
 .header__container {
-    width: 100vw;
-    height: 6.375rem;
-    padding-right: 1.25rem;
-    padding-left: 1.25rem;
+    height: 6.250rem;
+    padding: 1.25rem;
     padding-block: clamp(1.25rem, -1.0514rem + 8.6643vw, 5.75rem);
     display: flex;
     justify-content: space-between;
@@ -39,13 +37,11 @@
 }
 
 .main__container {
-    width: 100vw;
     display: flex;
     flex-direction: column;
 }
 
 .banner__container {
-    width: 100%;
     padding-block: clamp(4rem, -1.9454rem + 22.3827vw, 15.625rem);
     padding-inline: clamp(0.1rem, -7.3925rem + 28.2070vw, 14.75rem);
     background: var(--gray-2);
@@ -100,7 +96,6 @@
 }
 
 .about__container {
-    width: 100%;
     padding-block: clamp(2rem, 0.4018rem + 6.0168vw, 5.125rem);
     padding-inline: clamp(1rem, -4.8815rem + 22.1420vw, 12.5rem);
     display: flex;
@@ -130,7 +125,6 @@
 }
 
 .faq__container {
-    width: 100%;
     padding-block: clamp(2rem, 0.4018rem + 6.0168vw, 5.125rem);
     padding-inline: clamp(1rem, -4.8815rem + 22.1420vw, 12.5rem);
     display: flex;
@@ -209,7 +203,6 @@
 }
 
 .comments__container {
-    width: 100%;
     padding-block: clamp(2rem, 0.4018rem + 6.0168vw, 5.125rem);
     padding-inline: clamp(1rem, -4.8815rem + 22.1420vw, 12.5rem);
     display: flex;
@@ -371,7 +364,6 @@
 }
 
 .footer__container {
-    width: 100vw;
     height: 6.375rem;
     display: flex;
     justify-content: center;
