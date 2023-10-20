@@ -1,32 +1,39 @@
 @import url(./reset.css);
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-@import url(./index.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root{
-    --font-primary: "Inter", sans-serif;
+:root {
+    --brand-1: #4C6EF5;
+    --brand-2: #5E5E5E;
+
+    --gray-1: #191C1F;
+    --gray-2: #212529;
+    --gray-3: #343A40;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+
+    /* TEXTS STYLES */
+
     --font-weight-1: 600;
     --font-weight-2: 400;
 
-    --font-size-1: 52px;
-    --font-size-2: 40px;
-    --font-size-3: 30px;
-    --font-size-4: 20px;
-    --font-size-5: 18px;
-    --font-size-6: 16px;
+    --font-size-title-1: 3.25rem;
+    --font-size-title-2: 2.5rem;
+    --font-size-title-3: 2rem;
+    
+    --font-size-text-1: 1.25rem;
+    --font-size-text-2: 1.125rem;
+    --font-size-text-3: 1rem;
 
     --line-height-1: 160%;
     --line-height-2: 150%;
     --line-height-3: 140%;
-    
 
+}
 
-    --color-brand-1: #4C6EF5;
-    --color-brand-2: #364FC7;
-    --color-gray-1: #191C1F;
-    --color-gray-2: #212529;
-    --color-gray-3: #343A40;
-    --color-gray-4: #ADB5BD;
-    --color-gray-5: #CED4DA;
-    --color-gray-6: #EDF2FF;
-    --color-gray-7: #f8f9fa;
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    max-width: 1256px;
 }
