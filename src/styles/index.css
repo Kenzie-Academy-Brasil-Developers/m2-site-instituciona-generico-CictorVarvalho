@@ -5,7 +5,7 @@
 .header__container {
     height: 6.250rem;
     padding: 1.25rem;
-    padding-block: clamp(1.25rem, -1.0514rem + 8.6643vw, 5.75rem);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
